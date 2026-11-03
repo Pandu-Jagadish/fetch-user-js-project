@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>User Directory</h1>
+    <div class="controls">
+      <button id="fetch-btn">Fetch Users</button>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="search by name ....."
+        disabled
+      />
+      <button id="add-dummy-btn" disabled>+ Add User</button>
+    </div>
+
+    <div id="status-msg">Click "Ftch Users" to begin</div>
+
+    <div id="user-grid" class="grid"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
